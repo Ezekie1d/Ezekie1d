@@ -1,0 +1,23 @@
+name: Waka Readme
+
+on:
+  # for manual workflow trigger
+  workflow_dispatch:
+  schedule:
+    # runs at 8:30 PM UTC (4:30 AM CST)
+    - cron: "30 20 * * *"
+
+jobs:
+  update-readme:
+    name: WakaReadme DevMetrics
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          API_BASE_URL: https://wakatime.com/api
+          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
+          TIME_RANGE: last_7_days
+          COMMIT_MESSAGE: Updated waka-readme graph with new metrics
+          COMMITTER_NAME: GitHubActionBot
+          COMMITTER_EMAIL: action-bot@github.com
