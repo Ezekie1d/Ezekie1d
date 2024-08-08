@@ -1,6 +1,6 @@
 🌟 **GitHub Statistics**
 
-![](https://github-readme-stats.vercel.app/api?username=krisp7zz&count_private=true&show_icons=true&bg_color=ffffff00&text_color=666666&&hide_border=true)
+![](https://github-readme-stats.vercel.app/api?username=suprelory&count_private=true&show_icons=true&bg_color=ffffff00&text_color=666666&&hide_border=true)
 
 🔭 **Skills**
 
